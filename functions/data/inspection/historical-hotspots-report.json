@@ -1,0 +1,69 @@
+{
+  "source": {
+    "spreadsheet_id": "1bRYUX8kYYRl7vCGB1Azatb6zR-z_G22qgg5S5onJGtM",
+    "sheet_name": "hotspots",
+    "range": "hotspots!A1:K",
+    "expected_data_rows": 156333,
+    "expected_headers": [
+      "latitude",
+      "longitude",
+      "acq_datetime_utc",
+      "acq_date_th",
+      "acq_time_th",
+      "confidence",
+      "frp_mw",
+      "hotspot_id",
+      "province_th",
+      "district_th",
+      "subdistrict_th"
+    ]
+  },
+  "generated_at_utc": "2026-09-02T07:16:41.599Z",
+  "stats": {
+    "inputRows": 156333,
+    "validRows": 156333,
+    "invalidRows": 0,
+    "uniqueCanonicalIds": 156333,
+    "duplicateCanonicalIds": 0,
+    "uniqueHotspotIds": 156333,
+    "duplicateHotspotIds": 0,
+    "uniqueCoordinateKeys": 156333,
+    "duplicateCoordinateKeys": 0,
+    "missingRequiredValues": 0,
+    "invalidThaiDateTime": 0
+  },
+  "canonical_id_rule": "N21_ + first 32 hex characters of SHA-256(N21|latitude_5dp|longitude_5dp|acq_datetime_utc)",
+  "canonical_samples": [
+    {
+      "row": 2,
+      "hotspot_id": "N21_131a5095c3c28bd1c3d9",
+      "canonical_id": "N21_11efaaef756e886989eca839e5c64bbd",
+      "canonical_input": "N21|14.20702|100.92503|2025-04-09T06:33:00Z"
+    },
+    {
+      "row": 3,
+      "hotspot_id": "N21_ea49532837c6d64bc984",
+      "canonical_id": "N21_1bab18f38ef64849ccf4fce84f06bfae",
+      "canonical_input": "N21|11.05506|99.48251|2025-04-09T06:33:00Z"
+    },
+    {
+      "row": 4,
+      "hotspot_id": "N21_bc3ddba16157586a68b4",
+      "canonical_id": "N21_563da450631698fef6afba4aa25ce453",
+      "canonical_input": "N21|13.35145|101.64001|2025-04-09T06:33:00Z"
+    },
+    {
+      "row": 5,
+      "hotspot_id": "N21_c3f030de8e840a93681b",
+      "canonical_id": "N21_7b83dfa8951d6b4b67183dfdef6699f3",
+      "canonical_input": "N21|13.36633|101.14713|2025-04-09T06:33:00Z"
+    },
+    {
+      "row": 6,
+      "hotspot_id": "N21_9c2db6a43408a472c1c8",
+      "canonical_id": "N21_0628bfadeac0e931b4155651f00211e2",
+      "canonical_input": "N21|14.19653|100.35795|2025-04-09T06:33:00Z"
+    }
+  ],
+  "errors": []
+}
