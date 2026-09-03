@@ -9,7 +9,9 @@
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log",
-    "test": "vitest run"
+    "test": "vitest run",
+    "migrate:historical:canary": "node scripts/migrate-historical.mjs --canary",
+    "migrate:historical": "node scripts/migrate-historical.mjs --import --confirm"
   },
   "engines": {
     "node": "24"
